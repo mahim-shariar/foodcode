@@ -1,0 +1,197 @@
+body{
+    font-family: 'Inter', sans-serif;
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    
+
+    
+}
+
+h1{
+    font-weight: 900;
+    font-size: 50px;
+    margin: 0;
+    color: rgb(97, 91, 91);
+}
+.color{
+    color: rgb(233, 165, 19);
+}
+
+
+
+.section1{
+    display: flex;
+}
+.tag{
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 5%;
+    padding: 5%;
+    
+
+}
+
+.article1{
+    padding: 10px;
+    padding-left: 0;
+    color: rgb(155, 151, 151);
+    font-weight: 300;
+    text-align: justify;
+
+}
+
+#order{
+    padding: 20px 50px ;
+    border-radius: 30px;
+    background-image: linear-gradient(#ff5f6d ,#ffc371 );
+    text-decoration: none;
+    font-weight: 700;
+    color: cornsilk;
+    
+
+}
+
+.button{
+    margin-top: 50px;
+}
+
+.section2{
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    display:flex;
+    flex-direction: row-reverse;
+    background-size: auto;
+    margin-top: 70px;
+    background-position: center;
+
+
+
+
+}
+
+#owner{
+    justify-content: center;
+    padding-left: 30%;
+    
+    
+    
+}
+
+.about{
+    width: 50%;
+    margin: 0 auto;
+    color: rgb(155, 151, 151);
+    font-weight: 300;
+    text-align: justify;
+    justify-content: start;
+    margin-top: 15%;
+    padding-left: 20%;
+    
+}
+
+#contact {
+    padding: 20px 50px ;
+    border-radius: 30px;
+    background-image: linear-gradient(#ff5f6d ,#ffc371 );
+    text-decoration: none;
+    font-weight: 700;
+    color: cornsilk;
+    
+}
+
+.about2{
+    padding-right: 40%;
+    
+}
+.button1{
+    margin-top: 100px
+}
+.recipies{
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 200px;
+    color:  rgb(155, 151, 151);
+}
+.section3{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+    
+    
+
+    
+    
+}
+.section3 div{
+    margin: 40px;
+}
+
+.meno{
+    box-shadow: gray 10px 10px 10px 10px;
+    border-radius: 30px;
+    
+    
+
+}
+
+.pic1{
+    margin: 11%;
+    border-radius: 30px;
+    margin-bottom: 0;
+    
+}
+.pic{
+    margin: 15%;
+    border-radius: 30px;
+    margin-bottom: 0;
+}
+
+.make{
+    color: rgb(155, 151, 151); 
+    text-align: center;
+}
+.section4{
+    display: flex;
+    justify-content: space-between;
+    margin: 20%;
+    margin-top: 150px;
+    padding: 50px 100px ;
+    box-shadow: gray 10px 10px 10px 10px ;
+    border-radius: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 0;
+    font-weight: 900;
+    
+
+}
+
+.section4 div h3{
+    color: rgb(155, 151, 151) ;
+}
+.section4 div h1{
+    color: black;
+}
+
+footer{
+    margin: 0 auto;
+    margin: 20%;
+    margin-top: 300px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    padding: 5%;
+    background-color: black;
+}
+footer div{
+    text-align: center;
+}
+footer div h3{
+    color: cornsilk;
+    font-weight: 300;
+}
+footer div h1{
+    margin-bottom: 50px;
+}
