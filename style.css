@@ -1,14 +1,12 @@
+*{
+    box-sizing: border-box;
+}
 
 body{
     font-family: 'Inter', sans-serif;
     font-family: 'Mukta', sans-serif;
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    box-sizing: border-box;
-    width: 100%;
-    
-
-    
 }
 .nav {
     width: 100%;
@@ -121,7 +119,7 @@ h1{
 
 }
 
-#order{
+.order{
     padding: 20px 50px ;
     border-radius: 30px;
     background-image: linear-gradient(#ff5f6d ,#ffc371 );
@@ -136,56 +134,75 @@ h1{
     margin-top: 50px;
 }
 
+/* 
 .section2{
-    background-image: url(images/shapes/7.png);
-    background-repeat: no-repeat;
-    margin-top: 70px;
-    background-position: center;
-    width: 100%;
-    
+    display: flex;
+    justify-content: center;
 }
 
 .section2-container {
+    width: 1351.25px;
     display: flex;
-    flex-direction: row;
+    height: 600px;
+    justify-content: center;
+    background: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
+}
+.owner {
+    width: 338px;
+    height: 536px;
+} */
+
+.section2 {
+    margin-top: 85px;
+    display: flex;
     justify-content: center;
 }
 
-#owner{
+.section2-container {
+    width: 1351.25px;
+    display: flex;
+    height: 600px;
     justify-content: center;
-    padding-left: 45%;
-    margin-top: 10%;
+    background: url(./images/shapes/7.png);
+    background-repeat: no-repeat;
 }
 
-.about{
-    width: 50%;
-    margin: 0 auto;
-    color: rgb(155, 151, 151);
-    font-weight: 300;
-    text-align: justify;
-    justify-content: start;
-    margin-top: 7%;
-    padding-left: 10%;
-    
+.img {
+    margin-top: 64px;
+    width: 540px;
+    height: 500px;
+    justify-content: center;
 }
 
-#contact {
-    padding: 20px 50px ;
-    border-radius: 30px;
-    background-image: linear-gradient(#ff5f6d ,#ffc371 );
-    text-decoration: none;
-    font-weight: 700;
-    color: cornsilk;
-    
+.img img{
+    width: 338px;
+    height: 536px;
 }
 
-.about2{
-    padding-right: 30%;
-    
+.text-section2 {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 550px;
+    padding: 20px;
 }
-.button1{
-    margin-top: 70px
+
+.text-section2 h2{
+    color: #707070;
+    font-size: 40px;
+    font-weight: bold;
 }
+
+.about-pera {
+    color: #707070;
+    font-weight: normal;
+    letter-spacing: -0.02em;
+    line-height: 165%;
+    margin-bottom: 50px;
+}
+
 .recipies{
     margin: 0 auto;
     width: 50%;
