@@ -1,18 +1,21 @@
+
 body{
     font-family: 'Inter', sans-serif;
     font-family: 'Mukta', sans-serif;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    box-sizing: border-box;
     
 
     
 }
 
 h1{
-    font-weight: 900;
-    font-size: 50px;
+    font-weight: 700;
+    font-size: 60px;
     margin: 0;
     color: rgb(97, 91, 91);
+    line-height: 78px;
 }
 .color{
     color: rgb(233, 165, 19);
@@ -59,23 +62,24 @@ h1{
 .section2{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    display:flex;
-    flex-direction: row-reverse;
     background-size: auto;
     margin-top: 70px;
     background-position: center;
+    width: 1440px;
+    height: 600px;
+    margin: 5%;
+}
 
-
-
-
+.section2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 #owner{
     justify-content: center;
-    padding-left: 30%;
-    
-    
-    
+    padding-left: 45%;
+    margin-top: 10%;
 }
 
 .about{
@@ -85,8 +89,8 @@ h1{
     font-weight: 300;
     text-align: justify;
     justify-content: start;
-    margin-top: 15%;
-    padding-left: 20%;
+    margin-top: 7%;
+    padding-left: 10%;
     
 }
 
@@ -101,7 +105,7 @@ h1{
 }
 
 .about2{
-    padding-right: 40%;
+    padding-right: 30%;
     
 }
 .button1{
@@ -126,13 +130,13 @@ h1{
 }
 .section3 div{
     margin: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .meno{
     box-shadow: gray 10px 10px 10px 10px;
     border-radius: 30px;
-    
-    
 
 }
 
@@ -140,12 +144,16 @@ h1{
     margin: 11%;
     border-radius: 30px;
     margin-bottom: 0;
+    box-shadow: gray 5px 5px 5px 5px;
+    margin-left: 25px;
     
 }
 .pic{
     margin: 15%;
     border-radius: 30px;
     margin-bottom: 0;
+    box-shadow: gray 5px 5px 5px 5px;
+    
 }
 
 .make{
@@ -164,6 +172,8 @@ h1{
     margin-right: 50px;
     margin-bottom: 0;
     font-weight: 900;
+
+    
     
 
 }
