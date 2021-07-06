@@ -62,12 +62,13 @@ h1{
 .section2{
     background-image: url(images/shapes/7.png);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: 1583px;
     margin-top: 70px;
     background-position: center;
-    width: 1440px;
-    height: 600px;
-    margin: 5%;
+    width: 1583px;
+    
+    
+    
 }
 
 .section2-container {
