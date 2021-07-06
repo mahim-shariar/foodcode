@@ -10,6 +10,74 @@ body{
 
     
 }
+.nav {
+    width: 100%;
+    height: 80px;
+    background-image: linear-gradient(88.33deg, #FBA24F -7.64%, #FF1E1E 145.94%);
+}
+
+.logo img {
+    height: 49px;
+    width: 49px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.logo a{
+    color: white;
+}
+
+.bar {
+    display: flex;
+    height: 80px;
+    width: 1190px;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.menu-btn ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: space-between;
+}
+
+.menu-btn ul li a {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+}
+
+.nav-btn {
+    border: 1px solid;
+    border-color: white;
+    background-color: white;
+    padding:9px 16px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .30s ease;
+}
+
+.nav-btn:hover {
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 8px 15px 0px;
+}
+
+.nav-btn:hover a.login-btn{
+    color: #5865f2;
+}
+
+.nav-btn a {
+    text-decoration: none;
+    color:rgb(35, 39, 42);
+    font-weight: 500px;
+    font-size: 14px;
+}
 
 h1{
     font-weight: 700;
@@ -23,11 +91,18 @@ h1{
 }
 
 
+.section12 {
+    display: flex;
+    justify-content: center;
+}
 
 .section1{
     display: flex;
+    justify-content: center;
 }
 .tag{
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     margin: 0 auto;
     margin-top: 5%;
@@ -42,6 +117,7 @@ h1{
     color: rgb(155, 151, 151);
     font-weight: 300;
     text-align: justify;
+    padding-right: 50px;
 
 }
 
@@ -66,7 +142,6 @@ h1{
     margin-top: 70px;
     background-position: center;
     width: 100%;
-    background-size: 1583px;
     
 }
 
@@ -129,9 +204,8 @@ h1{
     
 }
 .section3 div{
-    margin: 40px;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    justify-content: space-between;
+    width: 100%;
     
 }
 
@@ -140,23 +214,24 @@ h1{
     border-radius: 30px;
     width: 100%;
     padding: 30px;
-    margin: 100px;
     
     
 }
 
 .pic{
     border-radius: 30px;
-    margin-bottom: 0;
+    margin: 0 auto;
     box-shadow: gray 5px 5px 5px 5px;
     width: 100%;
     
     
-}
+} 
 
 .make{
     color: rgb(155, 151, 151); 
     text-align: center;
+
+
 }
 .section4{
     display: flex;
@@ -203,3 +278,4 @@ footer div h3{
 footer div h1{
     margin-bottom: 50px;
 }
+
